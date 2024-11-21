@@ -46,10 +46,3 @@ The Cyber Analysis & Defense (CA&D) department is dedicated to protecting critic
 
 For more information, visit [FKIE-CAD organization page](https://www.fkie.fraunhofer.de/en/departments/cad.html).
 
-
-
-<div>
-  <footer>
-    <p>&copy; 2000-{{ site.time | date: "%Y" }} [Fraunhofer FKIE]. All rights reserved.</p>
-  </footer>
-</div>
