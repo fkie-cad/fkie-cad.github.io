@@ -48,4 +48,8 @@ For more information, visit [FKIE-CAD organization page](https://www.fkie.fraunh
 
 
 
-<p>&copy; 2020-{{ site.time | date: "%Y" }} [Fraunhofer FKIE]. All rights reserved.</p>
+<div>
+  <footer>
+    <p>&copy; 2000-{{ site.time | date: "%Y" }} [Fraunhofer FKIE]. All rights reserved.</p>
+  </footer>
+</div>
