@@ -12,7 +12,7 @@ We are dedicated to advancing the field of cybersecurity to protect against cybe
 Here are some of the open-source tools and research initiatives we’ve developed:
 
 <ul>
-{% assign popular_repos = site.github.public_repositories | sort: "stargazers_count" | reverse | limit: 5 %}
+{% assign popular_repos = site.github.public_repositories | sort: "stargazers_count" | reverse | slice: 0, 5  %}
 {% for repo in popular_repos %}
   <li>
     <a href="{{ repo.homepage | default: repo.html_url }}">
