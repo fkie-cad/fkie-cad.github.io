@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to the Cyber Analysis & Defense departments open source projects
+title: Welcome to the Cyber Analysis & Defense (CA&D) department's open source projects
 ---
 
 # Welcome to FKIE CA&D
@@ -11,6 +11,18 @@ We are dedicated to advancing the field of cybersecurity to protect against cybe
 
 Here are some of the open-source tools and research initiatives we’ve developed:
 
+<ul>
+{% assign popular_repos = site.github.public_repositories | sort: "stargazers_count" | reverse | limit: 5 %}
+{% for repo in popular_repos %}
+  <li>
+    <a href="{{ repo.homepage | default: repo.html_url }}">
+      {{ repo.name }}
+    </a> - {{ repo.description | default: "No description available" }}
+  </li>
+{% endfor %}
+</ul>
+
+<p>For a complete list of all repositories, visit our <a href="https://github.com/{{ site.github.organization }}">GitHub organization page</a>.</p>
 
 
 ## Our Approach
