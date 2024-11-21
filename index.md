@@ -3,7 +3,10 @@ layout: default
 title: Welcome to the Cyber Analysis & Defense (CA&D) department's open source projects
 ---
 
-![FKIE Logo](https://raw.githubusercontent.com/fkie-cad/fkie-cad.github.io/main/fkie_logo.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/fkie-cad/fkie-cad.github.io/main/fkie_logo.png" alt="FKIE Logo" width="50%" height="50%"/>
+</p>
+
 
 # Welcome to FKIE CA&D
 
@@ -24,7 +27,7 @@ Here are some of the open-source tools and research initiatives we’ve develope
 {% endfor %}
 </ul>
 
-<p>For a complete list of all repositories, visit our <a href="https://github.com/{{ site.github.organization }}">GitHub organization page</a>.</p>
+<p>For a complete list of all repositories, visit our <a href="https://github.com/fkie-cad/">GitHub organization page</a>.</p>
 
 
 ## Our Approach
@@ -45,6 +48,4 @@ For more information, visit [FKIE-CAD organization page](https://www.fkie.fraunh
 
 
 
-<footer>
-  <p>&copy; 2020-{{ site.time | date: "%Y" }} [Fraunhofer FKIE]. All rights reserved.</p>
-</footer>
+<p>&copy; 2020-{{ site.time | date: "%Y" }} [Fraunhofer FKIE]. All rights reserved.</p>
