@@ -3,6 +3,8 @@ layout: default
 title: Welcome to the Cyber Analysis & Defense (CA&D) department's open source projects
 ---
 
+![FKIE Logo](https://raw.githubusercontent.com/fkie-cad/fkie-cad.github.io/main/fkie_logo.png)
+
 # Welcome to FKIE CA&D
 
 We are dedicated to advancing the field of cybersecurity to protect against cybercrime, espionage, and sabotage. Our mission is to empower the community with open-source tools and research that bolster security and resilience in the digital age.
@@ -31,9 +33,9 @@ At Cyber Analysis & Defense (CA&D) department, we believe that collaboration and
 
 We provide open-source projects and solutions that:
 
-    - Enhance threat detection and mitigation.
-    - Support secure software development practices.
-    - Empower researchers and practitioners to better understand and respond to cyber threats.
+- Enhance threat detection and mitigation.
+- Support secure software development practices.
+- Empower researchers and practitioners to better understand and respond to cyber threats.
 
 ## About Us
 
@@ -41,3 +43,8 @@ The Cyber Analysis & Defense (CA&D) department is dedicated to protecting critic
 
 For more information, visit [FKIE-CAD organization page](https://www.fkie.fraunhofer.de/en/departments/cad.html).
 
+
+
+<footer>
+  <p>&copy; 2020-{{ site.time | date: "%Y" }} [Fraunhofer FKIE]. All rights reserved.</p>
+</footer>
